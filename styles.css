@@ -1,0 +1,655 @@
+:root{
+  --grey: #333;
+  --black: #000;
+  
+}
+
+
+*{
+  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+.title{
+  margin-left: 20px;
+}
+.download-nav{
+  
+  display: flex;
+  float: right;
+  width: 30%;
+  left: 30px;
+  height: 30px;
+  font-size: 12px;
+  justify-content: center;
+  margin: 5px auto;
+}
+
+.navbar {
+  top: 30px;
+  display: flex;
+  text-decoration: none;
+  height: 50px;
+  width: 100%;
+}
+
+.navbar ul li{
+  display: inline;
+  padding: 40px;
+  width: 100%;
+  text-decoration: none;
+  
+}
+
+.headsearch{
+  margin-left: 20PX;
+}
+
+.search-bar {
+  margin-left: 25px;
+  padding: 15px;
+  width: 200px;
+  top: -15px;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  left: 10px;
+}
+
+.search-main{
+  margin-left: 25px;
+  border-radius: 25px;
+  padding: 15px;
+  width: 200px;
+  top: -15px;
+}
+
+.mag{
+  left: 260px;
+  top: -40px;
+  cursor: pointer;
+}
+.navbar .cont{
+  margin-left: 105px;
+}
+
+.ul{
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.sign-up {
+  top: -48px;
+  left: 300px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.login{
+  left: 450px;
+  color: #000;
+
+}
+
+.pics{
+  cursor: pointer;
+}
+
+.cat-heading{
+  margin-bottom: 50px;
+}
+
+.login-button{
+  padding: 10px;
+  border-radius: 25px;
+  color: #000;
+  left: 440px;
+  top: -46px;
+}
+
+.sign-button{
+  left: 520px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.cont {
+  left: 30px;
+}
+
+.main-sec{
+  display: flex;
+  grid-template-columns: 2 1fr;
+}
+
+.img{
+  top: 100px;
+  left: 180px;
+}
+
+.intro-sec{
+  left: 180px;
+  top: 100px;
+  border: 1px solid  grey;
+  padding-left: 20px;
+  padding-right: 450px;
+  padding-top: 15px;
+  width: 60%;
+}
+
+.intro-sent{
+  left: -370px;
+  white-space: nowrap;
+  top: 200px;
+  font-weight: 400;
+  width: 60%;
+}
+
+.intro-sent-two{
+  left: -520px;
+  white-space: nowrap;
+  top: 250px;
+  font-weight: 500;
+  width: 60%;
+}
+
+.button{
+  left: 500px;
+  top: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  color: wheat;
+  background-color: black;
+  cursor: pointer;
+}
+
+.today{
+  top: 150px;
+  left: 180px;
+}
+
+.art{
+  top: 200px;
+  left: 180px;
+}
+
+.name{
+ top: 20px;
+ font-weight: 600;
+}
+
+.venue{
+  top: 30px;
+}
+
+.pic2{
+  left: 400px;
+  top: -340px;
+}
+
+.name2{
+  bottom: 320px;
+  font-weight: 600;
+  left: 400px;
+}
+
+.venue2{
+  bottom: 310px;
+  left: 400px;
+}
+
+.pic3{
+  left: 800px;
+  top: -680px;
+}
+
+.name3{
+  bottom: 660px;
+  font-weight: 600;
+  left:800px;
+}
+
+.venue3{
+  bottom: 650px;
+  left: 800px;
+}
+
+.categories{
+  top: -350px;
+  left: 180px;
+}
+
+.wrapper{
+  max-height: 300px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+  width: 0;
+}
+
+.wrapper .item{
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.weekly-editorial{
+  top: -300px;
+  left: 180px;
+}
+
+.weekly-head{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.news{
+  margin-bottom: 20px;
+}
+
+.weekly-title{
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+.paragraph{
+  color: gray;
+  font-size: 20px;
+}
+
+.balloons{
+  left: 700px;
+  top: -380px;
+}
+
+.read{
+  font-weight: 700;
+  text-decoration: underline blue;
+  top: -380px;
+}
+
+
+.footer{
+  bottom: 600px;
+  left: 150px;
+}
+
+.app{
+  text-align: center;
+  bottom: 403px;
+  border: solid grey 1px;
+  background-color: rgb(136, 136, 189);
+  border-left: hidden;
+  height: 400px;
+  width: 20%;
+  text-align: left;
+  left: 500px;
+}
+
+.app-button{
+  left: 500px;
+  bottom: 660px;
+  padding: 15px;
+  border-radius: 25px;
+  width: 200px;
+  text-align: center;
+}
+
+.burger{
+  display: none;
+}
+
+@media (max-width: 1326px) {
+
+ 
+  .download-nav{
+    left: 1960px;
+    font-size: 28px;
+  }
+
+  
+  .cont{
+    left: 700px;
+    font-size: 40px;
+  }
+
+  .sign-button{
+    left: 150px;
+    font-size: 36px;
+    border-radius: 100px;
+  }
+
+  .login-button{
+    left: 380px;
+    top: -50px;
+    font-size: 36px;
+    border-radius: 100px;
+
+  }
+
+  .mag{
+    left: 780px;
+    font-size: 36px;
+    top: -80px;
+  }
+
+  .search-bar{
+    font-size: 36px;
+    width: 450px;
+    left: 300px;
+  }
+    
+  .title{
+    font-size: 36px;
+  }
+
+  .main-sec{
+    height: 600px;
+    border-width: 600px;
+  }
+
+  .intro-sec{
+    font-size: 60px;
+    padding-right: 1400px;
+    margin-left: 1px;
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .img{
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+  }
+
+  .intro-sent{
+    display: inline-block;
+    font-size: 26px;
+    width: auto;
+    height: auto;
+    top: 400px;
+    width: 100%;
+    left: -1200px;
+    white-space: nowrap;
+  }
+
+  .intro-sent-two{
+    font-size: 40px;
+    width: auto;
+    height: auto;
+    bottom: 50px;
+    white-space: nowrap;
+    left: -1450px;
+    top: 500px;
+  }
+
+  .intro-div{
+    display: inline-block;
+    left: 30px;
+  }
+
+  .button{
+    left: 750px ;
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  .picks{
+    font-size: 68px;
+  }
+
+  .pic{
+    width: auto;
+    height: auto;
+  }
+
+  .pic2{
+   width: 680px;
+   height: 1020px;
+   left: 900px;
+   top: -1050px;
+
+  }
+
+  .pic3{
+    width: 680px;
+    height: 1020px;
+    left: 1800px;
+    top: -2100px;
+  }
+
+  .name2{
+    height: auto;
+    width: auto;
+    top: -1030px;
+    left: 900px;
+
+  }
+
+  .venue2{
+    height: auto;
+    width: auto;
+    top: -1030px;
+    left: 900px;
+  }
+
+  .name3{
+    height: auto;
+    width: auto;
+    top: -2100px;
+    left: 1800px;
+  }
+
+  .venue3{
+    height: auto;
+    width: auto;
+    top: -2100px;
+    left: 1800px;
+  }
+
+  .categories{
+    top: -1800px;
+  }
+
+  .cat-heading{
+    font-size: 68px;
+  }
+
+  .wrapper{
+    height: 4000px;
+    width: 2500px;
+  }
+  
+  .weekly-editorial{
+    top: -1600px;
+  }
+
+  .weekly-head{
+    font-size: 69px;
+  }
+
+  .news{
+    font-size: 40px;
+  }
+
+  .weekly-title{
+    font-size: 100px;
+    white-space: nowrap;
+  }
+
+  .weekly-title br{
+    display: none;
+  }
+
+  .paragraph{
+    font-size: 60px;
+    margin-top: 100px;
+  }
+    .balloons{
+      left: 1200px;
+      float: right;
+      width: 980px;
+      height: 1220px;
+      top: -700px;
+      bottom: 200px;
+    }
+
+
+
+}
+
+@media (max-width: 900px){
+  .login-button{
+    left: 600px;
+    top: -100px;
+
+  }
+
+  .sign-button{
+    left: 500px;
+    top: -110px;
+  }
+
+ .auctions{
+    display: inline;
+    left: 300px;
+    top: -50px;
+  }
+
+  .read{
+    top: -1200px;
+    font-size: 36px;
+  }
+  
+}
+
+@media (max-width: 808px) {
+.auctions{
+  left: 450px;
+  top: -100px;
+
+}
+
+.sell{
+  left: 220px;
+  top: -50px;
+}
+
+
+}
+
+@media (max-width: 625px) {
+  .download-nav{
+    display:none;
+  }
+
+  .pic3{
+    width: 500px;
+    height: 700px;
+    top: -1560px;
+  }
+
+  .pic2{
+    width: 500px;
+    height: 700px;
+    top: -840px;
+  }
+
+  .pic{
+    width: 500px;
+    height: 700px;
+    top: -100px;
+    margin-top: 50px;
+  }
+
+  .cat-heading{
+    top: 600px;
+  }
+
+  .wrapper{
+    margin-top: 650px;
+    width: 350%;
+  }
+
+  .name{
+    top: -70px;
+  }
+
+  .venue{
+    top: -50px;
+  }
+
+  .name2{
+    top: -820px;
+  }
+
+  .venue2{
+    top: -800px;
+  }
+
+  .name3{
+    top: -1550px;
+  }
+
+  .venue3{
+    top: -1540px;
+  }
+
+  
+
+  @media(max-width:430px){
+    .cont a{
+      display: none;
+    }
+
+    .download-nav{
+      display: none;
+    }
+
+    .mag{
+      float: right;
+      left: 1150px;
+      top:-70px;
+    }
+
+    .search-bar{
+      float: left;
+      left: 800px;
+      font-size: 40px;
+    }
+
+    .openMenu{
+      top: 150px;
+      font-size: 60px;
+      left: -350px;
+    }
+
+   .cont{
+    display: none;
+   }
+
+    .burger{
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+      font-size: 54px;
+      color: red;
+    }
+
+    .item{
+      left: -150px;
+    }
+  }
+}
